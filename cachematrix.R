@@ -1,7 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## makeCacheMatrix: 
+## This funcion does 4 operations:
+## 1. Set a matrix
+## 2. Get a stored matrix
+## 3. Store the matrix that is provided as input
+## 4. Get the stored inverse
+## All these functions are stored in a single function so that it can be assigned
+## to a variable
 
 makeCacheMatrix <- function(setmatrix = matrix()) 
                    {
@@ -19,7 +23,10 @@ makeCacheMatrix <- function(setmatrix = matrix())
                    }
 
 
-## Write a short comment describing this function
+## cacheSolve:
+## This function gets the cached inverse matrix if it was already computed 
+## Calculates the inverse of the input matrix if the input is different from 
+## the one already stored
 
 cacheSolve <- function(x, ...) 
               {
